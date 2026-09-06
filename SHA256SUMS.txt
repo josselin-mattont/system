@@ -1,0 +1,12 @@
+SYSTEM V0.9.2 PRODUCTION / CONNECTEURS RC1 patch11 — empreintes SHA-256
+Generé depuis les fichiers finaux par verify-sha.mjs.
+
+c20f7677669116dd226407175e9511205d6074d4bf32f8af4202bdf51fe27b87  index.html  (1311675 octets)
+e7785b4911fcf6df9adf15f6b636336659124823b0352e2cab30bebc5011951e  manifest.webmanifest  (604 octets)
+c873d29d5a2a7e784cb699b5eb817ba9583f0e00e97cae17f883947fd3313065  sw.js  (1845 octets)
+bc8dabea1554555225da6a156b719648d98a30546626dbe3bb91f377fe4f8180  README-PWA.txt  (17481 octets)
+f8e199d7c77bb224f3348eee2cf164b0197c129d7271384ce217a8a4d9f06575  THIRD-PARTY-LICENSES.txt  (3697 octets)
+14e57f90cc404a9b09bff5a731cee046bb6932fbe4b732ecd881a0e5aae306d1  icons/system-192.png  (27963 octets)
+ab583ffa5c00bf83180f16f768eca9802dd3ddbd57eacf4db08687ff9072fed7  icons/system-512.png  (110549 octets)
+419d51a5460e8f478251473f302653a1b4d4801d92e7a29f9c2f587c32c89daf  icons/system-maskable-512.png  (110316 octets)
+9c3c453eaf7b62805d2d51cd64e4f92d6b59401bd30399682a5835ba31ae751e  icons/apple-touch-icon.png  (25702 octets)
