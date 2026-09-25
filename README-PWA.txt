@@ -1,4 +1,4 @@
-SYSTEM V0.9.2 — PRODUCTION / CONNECTEURS (RC1 patch11)
+SYSTEM V0.9.3 — PRODUCTION / CONNECTEURS (RC1)
 
 Release candidate. NON VALIDEE POUR LA PRODUCTION.
 
@@ -7,11 +7,44 @@ Release candidate. NON VALIDEE POUR LA PRODUCTION.
 3. Installer via le navigateur ou le systeme.
 
 Le fichier autonome
-  SYSTEM-V0.9.2-PRODUCTION-CONNECTEURS-RC1-patch11-autonome.html
+  SYSTEM-V0.9.3-PRODUCTION-CONNECTEURS-RC1-autonome.html
 peut toujours etre utilise separement, sans ce dossier.
 index.html en est une copie byte-identique.
 
-CE QUE CHANGE CE PATCH11
+CE QUE CHANGE LA V0.9.3
+- SCHEMA 25. Une sauvegarde au schema 24 est migree a l'ouverture, sans perte ni
+  recalcul : XP, statistiques, bibliotheque, patrimoine et missions passees sont
+  conserves a l'identique. Aucune nouvelle cle de stockage.
+- BIBLIOTHEQUE. Les boutons OUI / NON de « SERIE TERMINEE ? » refletent la valeur
+  reelle. Serie terminee : nombre final de tomes. Serie en cours : nombre publie,
+  facultatif. Livre simple : aucune question de serie. Declarer des lectures
+  anterieures ne donne toujours aucune XP.
+- ROUTINES. Aucune repetition (a une date), quotidienne, jours ouvres,
+  hebdomadaire (jours choisis), mensuelle (jour choisi ; 29, 30 ou 31 tombent le
+  dernier jour d'un mois plus court). Une occurrence par routine et par jour,
+  aucun rattrapage des jours sans ouverture, aucune recompense pour la
+  programmation. La generation a lieu quand l'application est ouverte : aucune
+  execution en arriere-plan n'est promise sur iOS.
+- NATURE DES TACHES. Physique (END propose, FOR ou VIT au choix), cognitive (INT
+  pour une lecture, FOC sinon, modifiable), mixte (une statistique principale
+  choisie explicitement). La destination des points est affichee avant
+  validation. Bareme inchange ; une mission ne credite jamais DIS (regle
+  existante), ce que le formulaire indique.
+- UNE SEANCE, UNE RECOMPENSE. Si une seconde seance physique est validee le meme
+  jour, SYSTEM demande s'il s'agit de la meme : rattachement sans recompense, ou
+  seance distincte recompensee normalement. Le titre n'est pas un critere.
+- PUBLICATIONS. Un DOI deja present au patrimoine rattache la source sans
+  nouveau candidat ni recompense. Un titre et une annee identiques sans DOI
+  produisent un candidat « a confirmer ». Aucune fusion automatique.
+- IMPORT ICS. Heures UTC converties vers Europe/Paris (changements d'heure
+  compris), salle conservee, texte echappe decode, RRULE et fuseaux etrangers
+  refuses explicitement. Apercu avant confirmation, ecriture atomique, mise a
+  jour par source et UID, aucune suppression. Les anciens evenements importes
+  sont proposes au rattachement. Aucune synchronisation automatique.
+- Le parseur parse5 embarque et le connecteur HTML sont inchanges.
+- Service worker : comportement frozen conserve, seul le nom du cache change.
+
+CE QU'AVAIT CHANGE LE PATCH11
 - L'EMULATION ARTISANALE DU PARSEUR HTML EST SUPPRIMEE. Les patchs 2 a 10
   reproduisaient a la main les regles HTML, SVG, MathML, les espaces de noms, les
   points d'integration et les modes textuels : chaque patch corrigeait un cas et en
@@ -257,7 +290,7 @@ publiee peut ne pas etre visible immediatement : la detection n'est pas
 instantanee. Reessayer quelques minutes plus tard.
 
 CACHE DE CE BUILD
-  system-v0.9.2-production-connectors-rc1-patch11-shell
+  system-v0.9.3-production-connectors-rc1-shell
 Les caches SYSTEM anterieurs ne sont supprimes qu'a l'activation.
 Le worker n'est jamais active automatiquement : il attend une demande
 explicite depuis l'interface. Aucun rechargement a la premiere

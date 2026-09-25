@@ -1,10 +1,9 @@
-SYSTEM V0.9.2 PRODUCTION / CONNECTEURS RC1 patch11 — empreintes SHA-256
-Generé depuis les fichiers finaux par verify-sha.mjs.
+SYSTEM V0.9.3 RC1 — package PWA — SHA-256
 
-c20f7677669116dd226407175e9511205d6074d4bf32f8af4202bdf51fe27b87  index.html  (1311675 octets)
+90013f402f73930fb828477fb3ddc9946d4937c97683563d43b88a89dee110f8  index.html  (1384763 octets)
 e7785b4911fcf6df9adf15f6b636336659124823b0352e2cab30bebc5011951e  manifest.webmanifest  (604 octets)
-c873d29d5a2a7e784cb699b5eb817ba9583f0e00e97cae17f883947fd3313065  sw.js  (1845 octets)
-bc8dabea1554555225da6a156b719648d98a30546626dbe3bb91f377fe4f8180  README-PWA.txt  (17481 octets)
+90108b2078462cc7dddf7566db082258d42ba4f65e1b2a18f3e6094d452f9b03  sw.js  (1837 octets)
+6a043bd0f727889eeecdde664c93a3dc4ef25b1df584cb26c545c24999f0e6fc  README-PWA.txt  (19754 octets)
 f8e199d7c77bb224f3348eee2cf164b0197c129d7271384ce217a8a4d9f06575  THIRD-PARTY-LICENSES.txt  (3697 octets)
 14e57f90cc404a9b09bff5a731cee046bb6932fbe4b732ecd881a0e5aae306d1  icons/system-192.png  (27963 octets)
 ab583ffa5c00bf83180f16f768eca9802dd3ddbd57eacf4db08687ff9072fed7  icons/system-512.png  (110549 octets)
