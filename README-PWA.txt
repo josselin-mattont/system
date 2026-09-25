@@ -11,6 +11,19 @@ Le fichier autonome
 peut toujours etre utilise separement, sans ce dossier.
 index.html en est une copie byte-identique.
 
+MISE À JOUR « NIVEAU » (2026-09-25)
+- « VERS AUJOURD'HUI » demande le niveau : PRINCIPALE (essentielle) ou
+  SECONDAIRE, ou ANNULER. Aucun niveau présélectionné, aucun déclassement.
+  Niveau plein : refus, capture conservée. Quotas, XP et barème inchangés.
+- CAPTURES MIXTES : statistique principale obligatoire, secondaire facultative
+  (AUCUNE par défaut), jamais la même. Le budget de points du niveau est
+  partagé, arrondi vers la principale : essentielle 2+1, secondaire 1+1,
+  bonus 1+0. DIS secondaire : 0 point, sa part reste à la principale. DIS
+  principale : 0 point, la secondaire ne reçoit que sa part. XP inchangée.
+  Répartition affichée avant validation. Routines : hors périmètre.
+- Aucune migration : sauvegarde, captures, missions et agenda conservés ; les
+  données sans secondaire gardent exactement leur attribution.
+
 CE QUE CHANGE LA V0.9.3
 - SCHEMA 25. Une sauvegarde au schema 24 est migree a l'ouverture, sans perte ni
   recalcul : XP, statistiques, bibliotheque, patrimoine et missions passees sont
@@ -290,7 +303,7 @@ publiee peut ne pas etre visible immediatement : la detection n'est pas
 instantanee. Reessayer quelques minutes plus tard.
 
 CACHE DE CE BUILD
-  system-v0.9.3-production-connectors-rc1-shell
+  system-v0.9.3-production-connectors-rc1-niveau-stat2-shell
 Les caches SYSTEM anterieurs ne sont supprimes qu'a l'activation.
 Le worker n'est jamais active automatiquement : il attend une demande
 explicite depuis l'interface. Aucun rechargement a la premiere
