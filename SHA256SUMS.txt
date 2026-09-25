@@ -1,9 +1,9 @@
-SYSTEM V0.9.3 RC1 (niveau + statistique secondaire) — package PWA — SHA-256
+SYSTEM V0.9.3 RC1 (révisions) — package PWA — SHA-256
 
-22527a1bf310d0b0d830f6aea27cb063386b73323273e26b271e7a20bd2e7194  index.html  (1396465 octets)
+2d7fce1d59f51c5d2923385f8505e27337daa14c957782e1a659fff67d9580c7  index.html  (1431903 octets)
 e7785b4911fcf6df9adf15f6b636336659124823b0352e2cab30bebc5011951e  manifest.webmanifest  (604 octets)
-ef6da7b3347296bda25bdcf4ef4f39aa4ec646c19096e9706a9657bdbcebe0f7  sw.js  (1850 octets)
-6dc8fe38de4f635d5a7bd2b9409fa3badd518e5e023dfa44f545fc512b05c642  README-PWA.txt  (20632 octets)
+60bdd894a8acd73eddc547a2078931bda827d4093cedf88a13b0017bf5e0b75e  sw.js  (1847 octets)
+ac00d0e092fb7e3d93181c85850bb5a567110fab8e5064f03380b15a3a0833e1  README-PWA.txt  (22227 octets)
 f8e199d7c77bb224f3348eee2cf164b0197c129d7271384ce217a8a4d9f06575  THIRD-PARTY-LICENSES.txt  (3697 octets)
 14e57f90cc404a9b09bff5a731cee046bb6932fbe4b732ecd881a0e5aae306d1  icons/system-192.png  (27963 octets)
 ab583ffa5c00bf83180f16f768eca9802dd3ddbd57eacf4db08687ff9072fed7  icons/system-512.png  (110549 octets)

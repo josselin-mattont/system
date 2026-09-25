@@ -11,6 +11,32 @@ Le fichier autonome
 peut toujours etre utilise separement, sans ce dossier.
 index.html en est une copie byte-identique.
 
+MISE À JOUR « RÉVISIONS » (2026-09-25)
+- Portfolio : une nouvelle révision d'une publication déjà traitée est comparée
+  sur son contenu utile (titre, DOI, année, revue, type, statut éditorial).
+  Même DOI + différence : MISE À JOUR de la trace. Sans DOI : « révision
+  possible » à confirmer, jamais de fusion. URL seule : rien.
+
+MISE À JOUR « PUBLICATIONS » (2026-09-25)
+- Une proposition HAL / Portfolio enregistrée depuis son formulaire prérempli est
+  traitée automatiquement ; une source déjà traitée n'en produit plus d'autre.
+  Seule une révision significative (titre, DOI, année, revue, type) produit une
+  MISE À JOUR, une fois. Historique résolu / écarté séparé. Aucune récompense.
+
+MISE À JOUR « ACCUEIL » (2026-09-25)
+- Accueil quotidien « JOUEUR DÉTECTÉ » à la première ouverture (ou reprise) de
+  chaque date locale : nom, rang, niveau, XP, six statistiques, jusqu'à trois
+  accomplissements des 30 derniers jours. Informatif : aucune XP, aucune mission.
+  Seule donnée écrite : lastWelcomeDayKey. Nouvel utilisateur : l'Éveil suffit.
+
+MISE À JOUR « SECONDAIRES » (2026-09-25)
+- Missions secondaires illimitées (ajouts du joueur). La génération automatique
+  reste bornée à 4 secondaires proposées par jour.
+- Par jour, les 5 premières secondaires NON SPORTIVES terminées donnent leur XP ;
+  les suivantes 0 XP, statistiques conservées. Sport : choix explicite
+  « ACTIVITÉ SPORTIVE — OUI / NON » (NON par défaut) sur une capture ou une
+  routine physique ou mixte ; hors plafond. Essentielles et bonus inchangés.
+
 MISE À JOUR « NIVEAU » (2026-09-25)
 - « VERS AUJOURD'HUI » demande le niveau : PRINCIPALE (essentielle) ou
   SECONDAIRE, ou ANNULER. Aucun niveau présélectionné, aucun déclassement.
@@ -303,7 +329,7 @@ publiee peut ne pas etre visible immediatement : la detection n'est pas
 instantanee. Reessayer quelques minutes plus tard.
 
 CACHE DE CE BUILD
-  system-v0.9.3-production-connectors-rc1-niveau-stat2-shell
+  system-v0.9.3-production-connectors-rc1-revisions-shell
 Les caches SYSTEM anterieurs ne sont supprimes qu'a l'activation.
 Le worker n'est jamais active automatiquement : il attend une demande
 explicite depuis l'interface. Aucun rechargement a la premiere
