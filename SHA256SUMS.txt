@@ -1,6 +1,7 @@
 SYSTEM V0.9.3 RC1 (corrections) — package PWA — SHA-256
+Couvre les 9 fichiers du dossier dist/pwa/ sauf ce fichier lui-même.
 
-a27a5569374ddb883fff08d990f7033c3c4cf1e1300a29760abb2966e8a252c8  index.html  (1509656 octets)
+0fd8767853f39485e489b4a0d7e995133898d4ab6229f507e4e0eaebda6e7d35  index.html  (1510317 octets)
 e7785b4911fcf6df9adf15f6b636336659124823b0352e2cab30bebc5011951e  manifest.webmanifest  (604 octets)
 0db2e869968ad5c632883520e14008b1bd4da70c5db56acaae5e2fa41b3afceb  sw.js  (1849 octets)
 49a0fcc693921d325cdd4dd108918f49aa6507e593929c89b7c0237ba040a4f2  README-PWA.txt  (22964 octets)
