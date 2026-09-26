@@ -11,6 +11,12 @@ Le fichier autonome
 peut toujours etre utilise separement, sans ce dossier.
 index.html en est une copie byte-identique.
 
+MISE À JOUR « CORRECTIONS » (2026-09-26)
+- Menu « ⋯ » : modifier, supprimer, désactiver, annuler une validation.
+  Annulation = retrait exact des gains enregistrés. Occurrences ICS masquables
+  et restaurables ; sources renommables et retirables ; objets retirés jamais
+  réattribués ; propositions traitées rouvrables sans récompense.
+
 MISE À JOUR « LECTURE » (2026-09-26)
 - Lecture progressive : séances en pages ou chapitres (unités jamais converties),
   TERMINER le livre / tome, correction de progression sans gain, objectif du jour.
@@ -335,7 +341,7 @@ publiee peut ne pas etre visible immediatement : la detection n'est pas
 instantanee. Reessayer quelques minutes plus tard.
 
 CACHE DE CE BUILD
-  system-v0.9.3-production-connectors-rc1-lecture-shell
+  system-v0.9.3-production-connectors-rc1-corrections-shell
 Les caches SYSTEM anterieurs ne sont supprimes qu'a l'activation.
 Le worker n'est jamais active automatiquement : il attend une demande
 explicite depuis l'interface. Aucun rechargement a la premiere
