@@ -1,6 +1,6 @@
 // SYSTEM — service worker limité à l'app shell.
 // Il ne met jamais en cache une donnée applicative, une réponse HAL ou un portfolio externe.
-const CACHE = 'system-v0.9.4-rc3-shell';
+const CACHE = 'system-v0.9.4-rc6-shell';
 const SHELL = [
   './',
   './index.html',

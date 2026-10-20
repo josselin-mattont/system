@@ -1,7 +1,7 @@
-SYSTEM 0.9.4-rc.3 — PAQUET PWA
+SYSTEM 0.9.4-rc.6 — PAQUET PWA
 
 Contenu de ce dossier (à publier tel quel, à la racine du site actuel de SYSTEM) :
-  index.html                 standalone 0.9.4-rc.3, octet pour octet identique à dist/index.html
+  index.html                 standalone 0.9.4-rc.6, octet pour octet identique à dist/index.html
   manifest.webmanifest       inchangé depuis 0.9.3 (pwa-baseline)
   sw.js                      service worker de 0.9.3 ; seule la clé de cache change
   icons/                     inchangées depuis 0.9.3
@@ -11,7 +11,7 @@ Contenu de ce dossier (à publier tel quel, à la racine du site actuel de SYSTE
 
 Service worker
   Une seule ligne diffère de la version déployée :
-    const CACHE = 'system-v0.9.4-rc3-shell';
+    const CACHE = 'system-v0.9.4-rc6-shell';
   Le reste du comportement est conservé : seul l'app shell est mis en cache, jamais une donnée
   applicative, une réponse HAL ou un portfolio ; la navigation passe par le réseau en premier,
   avec le shell en secours hors ligne ; l'activation d'une nouvelle version n'a lieu qu'après le
@@ -41,10 +41,10 @@ Ordre des étapes (rien n'est publié par Claude)
      b. Ou publier directement la mise à jour, puis faire les contrôles 4 aussitôt après
         l'acceptation du bandeau de mise à jour, avec la sauvegarde de l'étape 2 sous la main.
   4. Contrôles (aucun n'a été réalisé sur iPhone par Claude) :
-     - la version 0.9.4-rc.3 apparaît dans Paramètres et sauvegarde ; les données d'hier sont là ;
+     - la version 0.9.4-rc.6 apparaît dans Paramètres et sauvegarde ; les données d'hier sont là ;
      - Plus → Disponibilité : repos sportif confirmé ; aucune quête physique ; une dette éventuelle
        est indiquée « suspendue pendant le repos » ;
-     - Agenda : « AJOUTER À MES MISSIONS » sur un cours du jour, puis vérifier Aujourd'hui ;
+     - Agenda : « AJOUTER EN PRINCIPALE » sur un cours du jour, puis vérifier dans Aujourd'hui la rubrique « AGENDA — N MISSIONS · HORS QUOTA » et « MES PRIORITÉS — X / 3 » ;
      - Échos → Saisir → un accomplissement réel, puis le retrouver dans Plus → Hall of fame ;
      - mode avion, rouvrir l'application : le shell se charge hors ligne.
   5. Vérifier les empreintes des fichiers publiés : shasum -a 256 -c SHA256SUMS.txt
